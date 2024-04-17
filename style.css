@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 200px;
+  border-radius: 10px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.description {
+  display: none;
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.description p {
+  margin-bottom: 15px;
+}
+
+.active {
+  display: block;
+}
+
+#skillset {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+#skillset ul {
+  flex: 1;
+  padding: 0;
+}
+
+#skillset ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#contact-me {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact-me h2 {
+  margin-top: 0;
+}
+
+#contact-me p {
+  margin-bottom: 20px;
+}
+.content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow */
+  margin: 20px;
+}
+.about p {
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #ccc;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Anant Pandey</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="about">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+          I'm a Full-Stack web developer, deeply interested in Data Structures
+          and Algorithms (DSA). I'm eager to explore new technologies and
+          enhance my skill set.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="content">
+        <h2>Skills</h2>
+        <div id="skillset">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>NodeJS</li>
+          </ul>
+          <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>DSA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project" onclick="toggleDescription(this)">
+        <h3>B2B TRANSACTION MANAGER</h3>
+        <p class="description">
+          Transaction Management: Built a robust system enabling store owners to
+          initiate, track, and manage transactions seamlessly, boosting
+          operational efficiency.
+          <br /><br />
+          Supplier & Customer Database: Developed functionalities for storing
+          and organizing supplier and customer details and their transaction
+          details.
+          <br /><br />
+          User-Friendly Interface: Created an intuitive UI with React.js for a
+          smooth user experience for both store owners.
+          <br /><br />
+          Secure Authentication: Implemented secure authentication mechanisms to
+          protect sensitive data.
+          <br /><br />
+          <b
+            >TECHNOLOGIES USED: React, Express.JS, MongoDB, Node.JS, API’S
+            JavaScript, Tailwind CSS, CSS, HTML</b
+          >
+        </p>
+      </div>
+      <div class="project" onclick="toggleDescription(this)">
+        <h3>FOOD ORDERING APP</h3>
+        <p class="description">
+          Established 100% live API integration to dynamically fetch and exhibit
+          restaurant listings and menus, elevating the app's real-time
+          capabilities.
+          <br /><br />
+          Developed React components for restaurant details, menus, and orders,
+          greatly improving user experience and app performance.
+          <br /><br />
+          Employed React hooks adeptly to run application state and effects,
+          ensuring fluid data handling and rendering with 100% efficiency.
+          <br /><br />
+          <b>TECHNOLOGIES USED: React, JavaScript, HTML, Tailwind CSS, API’S</b>
+        </p>
+      </div>
+      <div class="project" onclick="toggleDescription(this)">
+        <h3>AIRBNB CLONE</h3>
+        <p class="description">
+          User Management: Implemented user authentication, profile creation,
+          and management functionalities, including user preferences and
+          settings.
+          <br /><br />
+          Property Listings: Developed features for hosts to create, manage, and
+          update property listings, including descriptions, images, pricing, and
+          availability.
+          <br /><br />
+          Booking System: Created a mechanism for users to search, book, and
+          manage property reservations, along with features for hosts to approve
+          or decline bookings.
+          <br /><br />
+          Reviews and Ratings: Allowing users to leave feedback and ratings for
+          properties and hosts based on their experiences.
+          <br /><br />
+          <b
+            >TECHNOLOGIES USED: HTML, CSS, Bootstrap, JavaScript, API’S MongoDB,
+            Express.JS, Node.JS</b
+          >
+        </p>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="content">
+        <h2>Resume</h2>
+        <p>
+          Download my resume
+          <a href="photo.png" download>here</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me.</p>
+        <p>Email: pandeyanant1708@gmail.com</p>
+        <p>Mobile : +91-7067898315</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
